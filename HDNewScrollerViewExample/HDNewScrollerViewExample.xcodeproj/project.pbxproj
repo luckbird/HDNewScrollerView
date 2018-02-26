@@ -15,7 +15,7 @@
 		AF1F25B120440FEB00CB26A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1F25AF20440FEB00CB26A7 /* LaunchScreen.storyboard */; };
 		AF1F25BC20440FEC00CB26A7 /* HDNewScrollerViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F25BB20440FEC00CB26A7 /* HDNewScrollerViewExampleTests.m */; };
 		AF1F25C720440FEC00CB26A7 /* HDNewScrollerViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F25C620440FEC00CB26A7 /* HDNewScrollerViewExampleUITests.m */; };
-		AF1F25D72044100300CB26A7 /* HDNewScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F25D62044100300CB26A7 /* HDNewScrollerView.m */; };
+		AF6A5139204410CB00086E6F /* HDNewScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A5138204410CB00086E6F /* HDNewScrollerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		AF1F25C220440FEC00CB26A7 /* HDNewScrollerViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDNewScrollerViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1F25C620440FEC00CB26A7 /* HDNewScrollerViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDNewScrollerViewExampleUITests.m; sourceTree = "<group>"; };
 		AF1F25C820440FEC00CB26A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF1F25D52044100300CB26A7 /* HDNewScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNewScrollerView.h; sourceTree = "<group>"; };
-		AF1F25D62044100300CB26A7 /* HDNewScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNewScrollerView.m; sourceTree = "<group>"; };
+		AF6A5137204410CB00086E6F /* HDNewScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNewScrollerView.h; sourceTree = "<group>"; };
+		AF6A5138204410CB00086E6F /* HDNewScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNewScrollerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		AF1F259520440FEB00CB26A7 = {
 			isa = PBXGroup;
 			children = (
-				AF1F25D420440FF500CB26A7 /* HDNewScrollerView */,
+				AF6A5136204410CB00086E6F /* HDNewScrollerView */,
 				AF1F25A020440FEB00CB26A7 /* HDNewScrollerViewExample */,
 				AF1F25BA20440FEC00CB26A7 /* HDNewScrollerViewExampleTests */,
 				AF1F25C520440FEC00CB26A7 /* HDNewScrollerViewExampleUITests */,
@@ -144,13 +144,13 @@
 			path = HDNewScrollerViewExampleUITests;
 			sourceTree = "<group>";
 		};
-		AF1F25D420440FF500CB26A7 /* HDNewScrollerView */ = {
+		AF6A5136204410CB00086E6F /* HDNewScrollerView */ = {
 			isa = PBXGroup;
 			children = (
-				AF1F25D52044100300CB26A7 /* HDNewScrollerView.h */,
-				AF1F25D62044100300CB26A7 /* HDNewScrollerView.m */,
+				AF6A5137204410CB00086E6F /* HDNewScrollerView.h */,
+				AF6A5138204410CB00086E6F /* HDNewScrollerView.m */,
 			);
-			name = HDNewScrollerView;
+			path = HDNewScrollerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1F25A920440FEB00CB26A7 /* ViewController.m in Sources */,
-				AF1F25D72044100300CB26A7 /* HDNewScrollerView.m in Sources */,
+				AF6A5139204410CB00086E6F /* HDNewScrollerView.m in Sources */,
 				AF1F25A620440FEB00CB26A7 /* AppDelegate.m in Sources */,
 				AF1F25A320440FEB00CB26A7 /* main.m in Sources */,
 			);
@@ -532,6 +532,7 @@
 				AF1F25CD20440FEC00CB26A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1F25CE20440FEC00CB26A7 /* Build configuration list for PBXNativeTarget "HDNewScrollerViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				AF1F25D020440FEC00CB26A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1F25D120440FEC00CB26A7 /* Build configuration list for PBXNativeTarget "HDNewScrollerViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +550,7 @@
 				AF1F25D320440FEC00CB26A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
