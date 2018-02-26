@@ -1,6 +1,6 @@
 //
-//  HDNewScrollerViewUITests.m
-//  HDNewScrollerViewUITests
+//  HDNewScrollerViewExampleUITests.m
+//  HDNewScrollerViewExampleUITests
 //
 //  Created by yscompany on 2018/2/26.
 //  Copyright © 2018年 yscompany. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HDNewScrollerViewUITests : XCTestCase
+@interface HDNewScrollerViewExampleUITests : XCTestCase
 
 @end
 
-@implementation HDNewScrollerViewUITests
+@implementation HDNewScrollerViewExampleUITests
 
 - (void)setUp {
     [super setUp];

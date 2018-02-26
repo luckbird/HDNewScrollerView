@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HDNewScrollerView", "HDNewScrollerView/**/*.{h,m}"
+s.source_files  = "HDNewScrollerViewExample/HDNewScrollerView/HDNewScrollerView/*.{h,m}"
   s.exclude_files = "HDNewScrollerView/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
